@@ -122,7 +122,7 @@ export default function Index() {
   const [activeTab, setActiveTab] = useState("general");
 
   const tabs = [
-    { id: "general", label: "General Information", icon: School },
+    { id: "general", label: "Basic Information", icon: School },
     { id: "schedule", label: "Schedule & Timetable", icon: Clock },
     { id: "tuition", label: "Tuition & Fees", icon: DollarSign },
     { id: "staff", label: "Staff & Curriculum", icon: Users },
